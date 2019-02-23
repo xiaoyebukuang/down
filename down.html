@@ -1,11 +1,29 @@
-<!Doctype html>
-<html lang="zh-cn">
-<head>
-	<meta charset="utf-8">
-	<title>超链接和路径</title>
-</head>
-<body>
-	<a href="itms-services://?action=download-manifest&url=https://www.suiyongqian.com/public/suiyong028.plist" target="_top">百度</a>
 	
-</body>
 </html>
+<!DOCTYPE HTML> 
+<html lang="en"> 
+<head> 
+<meta charset="utf-8"/> 
+<title>判断是否是微信内置浏览器</title> 
+</head> 
+<body> 
+<h1>如果用微信浏览器打开可以看到下面的文字</h1>    
+</body> 
+</html> 
+<script type="text/javascript"> 
+	window.onload = function(){ 
+		if(isWeiXin()){ 
+			var p = document.getElementsByTagName('p'); 
+			p[0].innerHTML = window.navigator.userAgent; 
+		} 
+	} 
+	function isWeiXin(){ 
+		var ua = window.navigator.userAgent.toLowerCase(); 
+		if(ua.match(/MicroMessenger/i) == 'micromessenger'){ 
+			return true; 
+		}else{ 
+			return false; 
+		} 
+	} 
+	<a href="itms-services://?action=download-manifest&url=https://www.suiyongqian.com/public/suiyong028.plist" target="_top">百度</a>
+</script>
