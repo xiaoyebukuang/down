@@ -1,0 +1,299 @@
+body, html {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    overflow-scrolling:touch
+}
+
+body {
+    font-size:62.5%
+}
+
+article, body, button, code, details, div, figcaption, figure, h1, h2, h3, h4, h5, h6, hr, input, li, ol, p, section, td, th {
+    margin: 0;
+    padding:0
+}
+
+body, button, input {
+    font-family: Hiragino Sans GB, Helvetica Neue, Helvetica, STHeiTi, Microsoft Yahei, sans-serif;
+    color: #666;
+    background-color: #fff;
+    position:relative
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:400
+}
+
+input[type=button], input[type=submit] {
+    cursor:pointer
+}
+
+input[type=button] {
+    -webkit-appearance: none;
+    outline:0
+}
+
+input::-webkit-input-placeholder {
+    color:#f0f0f0
+}
+
+th {
+    text-align:inherit
+}
+
+img {
+    border:0
+}
+
+img {
+    vertical-align:middle
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color:#d9d9d9
+}
+
+li, ol {
+    list-style:none
+}
+
+input {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight:inherit
+}
+
+button, input {
+    border: 0;
+    background: 0;
+    -webkit-appearance: none;
+    outline:0
+}
+
+a {
+    -webkit-touch-callout: none;
+    color: #666;
+    outline: 0;
+    cursor:pointer
+}
+
+a, a:hover {
+    text-decoration:none
+}
+
+:focus, a:focus {
+    outline:0
+}
+
+em, i {
+    font-style:normal
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    -ms-word-wrap: break-word;
+    word-wrap:break-word
+}
+
+.tl {
+    text-align:left
+}
+
+.tr {
+    text-align:right
+}
+
+.bc {
+    margin-left: auto;
+    margin-right:auto
+}
+
+.fl {
+    float:left
+}
+
+.fr {
+    float:right
+}
+
+.cb {
+    clear:both
+}
+
+.pa {
+    position:absolute
+}
+
+.hidden {
+    visibility:hidden
+}
+
+.none {
+    display:none
+}
+
+.inline {
+    display:inline
+}
+
+.block {
+    display:block
+}
+
+@media screen and (min-width: 212px) {
+    html {
+        font-size:28.4px
+    }
+}
+
+@media screen and (min-width: 319px) {
+    html {
+        font-size:42.6666px
+    }
+}
+
+@media screen and (min-width: 359px) {
+    html {
+        font-size:48px
+    }
+}
+
+@media screen and (min-width: 374px) {
+    html {
+        font-size:50px
+    }
+}
+
+@media screen and (min-width: 383px) {
+    html {
+        font-size:51.2px
+    }
+}
+
+@media screen and (min-width: 399px) {
+    html {
+        font-size:53.2px
+    }
+}
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size:55.2px
+    }
+}
+
+@media screen and (min-width: 423px) {
+    html {
+        font-size:56.5333px
+    }
+}
+
+@media screen and (min-width: 479px) {
+    html {
+        font-size:64px
+    }
+}
+
+@media screen and (min-width: 539px) {
+    html {
+        font-size:72px
+    }
+}
+
+@media screen and (min-width: 639px) {
+    html {
+        font-size:85.3333px
+    }
+}
+
+.f0 {
+    font-size:0
+}
+
+body {
+    font-size: 16px;
+    line-height: 1;
+    margin:0 auto
+}
+
+.dotdot {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient:vertical
+}
+
+.line4 {
+    -webkit-line-clamp:4
+}
+
+.line5 {
+    -webkit-line-clamp:5
+}
+
+.line6 {
+    -webkit-line-clamp:6
+}
+
+@media only screen and (min-width: 750px) {
+    body {
+        width:750px
+    }
+}
+
+a {
+    -webkit-tap-highlight-color:rgba(0, 0, 0, .1)
+}
+
+input::-webkit-input-placeholder {
+    color:#d0d0d0
+}
+
+.clearfix:after, .clearfix:before {
+    content: "";
+    display:table
+}
+
+.clearfix:after {
+    clear: both;
+    overflow:hidden
+}
+
+.clearfix {
+    zoom:1
+}
+
+.line1 {
+    -webkit-line-clamp:1
+}
+
+.line1, .line2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient:vertical
+}
+
+.line2 {
+    -webkit-line-clamp:2
+}
+
+.line3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical
+}
+
+/*# sourceMappingURL=common.min.css.map*/
+
